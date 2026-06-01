@@ -1,285 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trustline Technologies | Private Self-Hosted Systems with Local AI</title>
-  <meta name="description" content="Trustline Technologies designs private self-hosted systems for privacy-focused households and small businesses, with files, photos, backups, secure access, smart-home integrations, and a local AI assistant.">
-  <link rel="canonical" href="https://trustlinetechnologies.com/">
-  <meta property="og:site_name" content="Trustline Technologies">
-  <meta property="og:title" content="Trustline Technologies | Private Self-Hosted Systems">
-  <meta property="og:description" content="Private self-hosted systems with local AI, secure access, backups, and managed support for privacy-focused households and small businesses.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://trustlinetechnologies.com/">
-  <meta property="og:image" content="https://trustlinetechnologies.com/assets/img/branding/trustline-wordmark.png">
-  <meta property="og:image:width" content="1248">
-  <meta property="og:image:height" content="705">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Trustline Technologies | Private Self-Hosted Systems">
-  <meta name="twitter:description" content="Private self-hosted systems with local AI, secure access, backups, and managed support.">
-  <meta name="twitter:image" content="https://trustlinetechnologies.com/assets/img/branding/trustline-wordmark.png">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Trustline Technologies",
-    "url": "https://trustlinetechnologies.com/",
-    "logo": "https://trustlinetechnologies.com/assets/img/branding/trustline-mark.png",
-    "founder": {
-      "@type": "Person",
-      "name": "Ryan Disch"
-    },
-    "description": "Trustline Technologies designs private self-hosted systems with local AI, secure access, backups, migration planning, and managed support."
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Trustline Technologies",
-    "url": "https://trustlinetechnologies.com/"
-  }
-  </script>
-  <link rel="icon" type="image/png" href="assets/img/branding/trustline-mark.png">
-  <link rel="apple-touch-icon" href="assets/img/branding/trustline-mark.png">
-  <link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trustline Technologies | Private Digital Estates</title>
+    
+    <!-- FAVICON: This is the icon that shows up in the browser tab and Google -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <!-- If your icon is an .ico file, use: <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
+
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 700px;
+            padding: 2rem;
+        }
+        /* Logo Styling */
+        .logo {
+            max-width: 180px; /* Adjust size as needed */
+            height: auto;
+            margin-bottom: 2rem;
+            filter: brightness(0) invert(1); /* Forces logo to be white if it's a dark image */
+        }
+        h1 {
+            font-size: 2.5rem;
+            letter-spacing: -1px;
+            color: #ffffff;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #a0a0a0;
+            margin-bottom: 2rem;
+        }
+        .status {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border: 1px solid #333;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 2rem;
+        }
+        .contact {
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 1px solid #222;
+            padding-top: 2rem;
+            margin-top: 2rem;
+        }
+        .contact a {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="Trustline Technologies home">
-        <span class="brand-mark" aria-hidden="true">
-          <img src="assets/img/branding/trustline-mark.png" alt="">
-        </span>
-        <span class="brand-text">Trustline Technologies</span>
-      </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>Menu</button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary" data-site-nav>
-        <ul>
-          <li><a href="solutions.html">Solutions</a></li>
-          <li><a href="local-ai-operator.html">Local AI Operator</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="process.html">Process</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <a class="nav-cta" href="contact.html">Book a Fit Call</a>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="container hero">
-      <div class="hero-copy">
-        <span class="eyebrow">Private replacement systems</span>
-        <h1>Replace cloud sprawl with a private system you control.</h1>
-        <p class="lede">For privacy-focused households and small businesses that want to replace scattered cloud services with a managed local system for files, photos, planning, backups, secure access, cameras, and smart-home workflows.</p>
-        <div class="hero-actions">
-          <a class="button" href="contact.html">See If Trustline Is a Fit</a>
-          <a class="button-secondary" href="pricing.html">View Pricing</a>
-        </div>
-      </div>
-      <aside class="hero-card" aria-label="System status mockup">
-        <header>
-          <span class="status-pill">Private stack</span>
-          <strong>Deployment overview</strong>
-        </header>
-        <div class="accent-line"></div>
-        <ul class="dashboard-list">
-          <li><span>Server healthy</span><span class="status-pill">Nominal</span></li>
-          <li><span>Cameras online</span><span class="status-pill">12 active</span></li>
-          <li><span>Backup verified</span><span class="status-pill">02:14 UTC</span></li>
-          <li><span>AI assistant ready</span><span class="status-pill">Approval-gated</span></li>
-          <li><span>VPN active</span><span class="status-pill">Secure</span></li>
-        </ul>
-      </aside>
-    </section>
-
-    <section class="container">
-      <div class="trust-strip">
-        <article class="metric"><strong>Founder-led</strong><p>Built from hands-on self-hosted use, migration work, and operator testing.</p></article>
-        <article class="metric"><strong>Structured handoff</strong><p>Deployment includes documentation, onboarding, and a support runway.</p></article>
-        <article class="metric"><strong>Validated before handoff</strong><p>Remote access, backups, and operator paths are reviewed before launch.</p></article>
-        <article class="metric"><strong>Six months support</strong><p>Deployment tiers include early stewardship while the system settles in.</p></article>
-      </div>
-    </section>
-
-    <section class="container">
-      <div class="section-heading">
-        <span class="eyebrow">What this replaces</span>
-        <h2>Less vendor sprawl. More ownership.</h2>
-        <p class="lede">Trustline consolidates the parts of digital life that tend to scatter across subscriptions, phone apps, cloud dashboards, and fragile home networks.</p>
-      </div>
-      <div class="bento-grid">
-        <article class="card"><h3>Drive and file sprawl</h3><p>Reduce dependence on Google Drive, Dropbox, iCloud Drive, and scattered shared folders with a private workspace for files, sync, and sharing.</p></article>
-        <article class="card"><h3>Photo cloud dependence</h3><p>Move toward self-hosted photo and video workflows that keep family media closer, searchable, and backed up.</p></article>
-        <article class="card"><h3>Planning fragmentation</h3><p>Bring calendars, contacts, reminders, and task workflows into private sync paths that work across phones and endpoints.</p></article>
-        <article class="card"><h3>Camera and smart-home apps</h3><p>Replace vendor dashboards where practical with local camera review, automation, scenes, and home status in one managed model.</p></article>
-        <article class="card"><h3>Weak default networking</h3><p>Improve remote access, DNS control, ad blocking, and privacy posture instead of relying on ISP or router defaults.</p></article>
-        <article class="card"><h3>Dashboard overload</h3><p>Use one operator layer to ask what changed, what failed, what is backed up, and what needs attention.</p></article>
-      </div>
-    </section>
-
-    <section class="container split-section">
-      <div>
-        <span class="eyebrow">Completed deployment</span>
-        <h2>What a finished system includes.</h2>
-        <p class="lede">A completed Trustline deployment is designed to arrive as a working private environment: private cloud workspace, calendar and contact sync, secure remote access, backups with restore confidence, phone-ready access paths, a local AI operator, smart-home and camera integrations where deployed, documentation, handoff, and a managed-care runway.</p>
-      </div>
-      <div class="quote-panel">
-        <ul class="feature-list">
-          <li><span>Private workspace and sync</span><span class="tag">Ready</span></li>
-          <li><span>Operator, backup, remote access</span><span class="tag">Included</span></li>
-          <li><span>Phone and endpoint onboarding</span><span class="tag">Prepared</span></li>
-          <li><span>Documentation and support runway</span><span class="tag">Delivered</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container split-section">
-      <div>
-        <span class="eyebrow">Example deployment</span>
-        <h2>A privacy-focused household replacing scattered defaults.</h2>
-        <p class="lede">A typical home engagement might consolidate Google Drive or Dropbox-style file sharing, iCloud Photos or Google Photos dependence, phone sync, secure remote access, backups, camera review, and smart-home status into one maintained local environment with clear documentation and support.</p>
-      </div>
-      <div class="quote-panel">
-        <ul class="feature-list">
-          <li><span>Files, photos, phone sync</span><span class="tag">Consolidated</span></li>
-          <li><span>Remote access and backups</span><span class="tag">Validated</span></li>
-          <li><span>Cameras and home status</span><span class="tag">Where deployed</span></li>
-          <li><span>Local assistant with approvals</span><span class="tag">Clear limits</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container split-section">
-      <div>
-        <span class="eyebrow">Operator layer</span>
-        <h2>One place to ask what is happening.</h2>
-        <p class="lede">Every deployment includes a local AI assistant for summaries, searches, status checks, and approved workflows across configured services. Ask what happened while you were out, whether photos are backed up, or whether the system is healthy without opening every dashboard yourself.</p>
-        <div class="button-row">
-          <a class="button-secondary" href="local-ai-operator.html">Explore Operator Workflows</a>
-        </div>
-      </div>
-      <div class="quote-panel">
-        <ul class="feature-list">
-          <li><span>Daily household brief</span><span class="tag">Included</span></li>
-          <li><span>Away-from-home summary with clips</span><span class="tag">Private</span></li>
-          <li><span>Backup and photo reassurance</span><span class="tag">Clear limits</span></li>
-          <li><span>Privacy health check</span><span class="tag">Approval-gated</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container">
-      <div class="section-heading">
-        <span class="eyebrow">Pricing preview</span>
-        <h2>Founding client deployment tiers.</h2>
-      </div>
-      <div class="pricing-grid">
-        <article class="pricing-card"><strong>Sovereign Operator Home</strong><p class="price">$8k-$12k</p><p>Premium home deployment with six months of support.</p></article>
-        <article class="pricing-card featured"><strong>Sovereign Operator Plus</strong><p class="price">$12k-$18k</p><p>Expanded storage, automation, cameras, and stronger operator workflows.</p></article>
-        <article class="pricing-card"><strong>Sovereign Operator Concierge</strong><p class="price">$18k-$30k+</p><p>Complex or high-touch deployments for privacy-focused households and small businesses.</p></article>
-        <article class="pricing-card"><strong>Sovereign Worker / Local AI Infrastructure</strong><p class="price">$12k-$30k+</p><p>Add-on local AI capacity for more advanced models and premium worker flows.</p></article>
-      </div>
-    </section>
-
-    <section class="container split-section">
-      <div>
-        <span class="eyebrow">Process preview</span>
-        <h2>From fit call to supported handoff.</h2>
-        <p class="lede">Trustline starts with fit and assessment, then moves through architecture, hardware planning, deployment, migration, validation, handoff, and the first support runway.</p>
-      </div>
-      <div class="diagram">
-        <div class="diagram-row"><strong>Fit and assessment</strong><p>Confirm goals, migration scope, compatibility, and whether the engagement makes sense.</p></div>
-        <div class="diagram-row"><strong>Build and migration</strong><p>Stage the system, move core data carefully, and configure the services that belong in the stack.</p></div>
-        <div class="diagram-row"><strong>Handoff and care</strong><p>Deliver documentation, training, validation, and support instead of leaving the owner with a puzzle.</p></div>
-      </div>
-    </section>
-
-    <section class="container split-section">
-      <div>
-        <span class="eyebrow">Validation standards</span>
-        <h2>Credible because the system is checked before handoff.</h2>
-        <p class="lede">Trustline deployments are validated before handoff: services are patched and maintained, standard security practices are followed, containerization is used where appropriate, backups and restore paths are reviewed, remote access is tested, and risky AI actions stay approval-gated.</p>
-      </div>
-      <div class="quote-panel">
-        <ul class="feature-list">
-          <li><span>Patched and maintained services</span><span class="tag">Required</span></li>
-          <li><span>Backup-aware and restore-conscious</span><span class="tag">Reviewed</span></li>
-          <li><span>Remote access and operator paths</span><span class="tag">Tested</span></li>
-          <li><span>Approval-gated risky actions</span><span class="tag">Bounded</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container split-section">
-      <div>
-        <span class="eyebrow">Operator-built</span>
-        <h2>Built by someone running this kind of stack himself.</h2>
-        <p class="lede">Trustline was founded by Ryan Disch after years of frustration with forced subscriptions, cloud dependence, and software that weakens ownership of hardware people paid for. The service is based on hands-on work running self-hosted services, migrating data, troubleshooting daily workflows, and testing operator patterns on Ryan’s own systems before turning them into client deployments.</p>
-      </div>
-      <div class="quote-panel">
-        <ul class="feature-list">
-          <li><span>Self-hosted workflows</span><span class="tag">Practiced</span></li>
-          <li><span>Dockerized services</span><span class="tag">Tested</span></li>
-          <li><span>Local operator flows</span><span class="tag">Built</span></li>
-          <li><span>Dependable daily use</span><span class="tag">Goal</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container split-section">
-      <div>
-        <span class="eyebrow">Fit call</span>
-        <h2>A concrete first step.</h2>
-        <p class="lede">The first call is a short qualification conversation. We clarify what you want to replace, migration complexity, rough hardware expectations, and whether a remote or on-site assessment is the right next step.</p>
-      </div>
-      <div class="quote-panel">
-        <ul class="feature-list">
-          <li><span>Privacy-focused households</span><span class="tag">Good fit</span></li>
-          <li><span>Small teams replacing scattered tools</span><span class="tag">Good fit</span></li>
-          <li><span>Cheapest NAS only</span><span class="tag">Not ideal</span></li>
-          <li><span>Unbounded AI autonomy</span><span class="tag">Not offered</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="cta-shell">
-      <div class="container cta-band">
-        <div>
-          <span class="eyebrow">Next step</span>
-          <h2>Ready to talk through your setup?</h2>
-        </div>
-        <div class="button-row">
-          <a class="button" href="contact.html">Start With a Fit Call</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
     <div class="container">
-      <div class="footer-top">
-        <div>
-          <a class="brand" href="index.html">
-            <img class="footer-wordmark" src="assets/img/branding/trustline-wordmark.png" alt="Trustline Technologies">
-          </a>
-          <p>Private infrastructure for homes and small businesses, with a local AI operator and premium managed support.</p>
+        <!-- MAIN LOGO -->
+        <img src="/logo.png" alt="Trustline Technologies Logo" class="logo">
+
+        <div class="status">Sovereign Infrastructure</div>
+        <h1>Trustline Technologies</h1>
+        <p>
+            Restoring the boundary between convenience and exploitation. <br>
+            We provide high-net-worth individuals with a <strong>Private Digital Estate</strong>, 
+            managed by a personal AI Chief of Staff, ensuring absolute digital sovereignty 
+            without the technical burden.
+        </p>
+        <div class="status" style="border-color: #444; color: #bbb;">By Invitation Only</div>
+        <div class="contact">
+            Contact: <a href="mailto:ryan@trustlinetechnologies.com">ryan@trustlinetechnologies.com</a>
         </div>
-        <div class="footer-links">
-          <a href="solutions.html">Solutions</a>
-          <a href="local-ai-operator.html">Local AI Operator</a>
-          <a href="pricing.html">Pricing</a>
-          <a href="process.html">Process</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Start With a Fit Call</a>
-        </div>
-      </div>
-      <small>&copy; 2026 Trustline Technologies. Private infrastructure. Local AI. One operator.</small>
     </div>
-  </footer>
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
