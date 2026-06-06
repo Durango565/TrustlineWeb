@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technical Specifications | Trustline Private Infrastructure</title>
+  <meta name="description" content="Detailed technical specifications of the Trustline Sovereign Stack, including hardware standards, software baselines, and operator integrations.">
+  <link rel="canonical" href="https://trustlinetechnologies.com/features.html">
+  <meta property="og:site_name" content="Trustline">
+  <meta property="og:title" content="Technical Specifications | Trustline">
+  <meta property="og:description" content="The technical blueprint of the Private Digital Estate.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://trustlinetechnologies.com/features.html">
+  <meta property="og:image" content="assets/img/branding/trustline-wordmark.png">
+  <link rel="icon" type="image/png" href="assets/img/branding/trustline-mark.png">
+  <link rel="apple-touch-icon" href="assets/img/branding/trustline-mark.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Trustline home"><span class="brand-mark" aria-hidden="true"><img src="assets/img/branding/trustline-mark.png" alt=""></span><span class="brand-text">Trustline</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary" data-site-nav>
+        <ul>
+          <li><a href="solutions.html">Solutions</a></li>
+          <li><a href="local-ai-operator.html">AI Operator</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="nav-cta" href="contact.html">Book a Fit Call</a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="container page-hero split-section">
+      <div>
+        <span class="eyebrow">Technical Blueprint</span>
+        <h1>The Sovereign Stack.</h1>
+        <p class="lede">For those who want to see under the hood. While the AI Operator removes the friction, the foundation is built on industry-standard, open-source, and durable infrastructure.</p>
+      </div>
+      <div class="quote-panel">
+        <strong>Design Philosophy</strong>
+        <p>We prioritize stability over novelty. Every tool in the stack is chosen for its ability to be self-hosted, audited, and maintained without corporate dependency.</p>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Foundation</span>
+        <h2>Sovereign Core Specs.</h2>
+        <p class="lede">The baseline infrastructure that ensures your data is safe, private, and always available.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card"><h3>OS Baseline</h3><p>Fedora Server: A stable, enterprise-grade Linux foundation with a focus on security and long-term maintainability.</p></article>
+        <article class="card"><h3>Storage Architecture</h3><p>RAID 1 / ZFS: Mirrored disks to ensure that a single hardware failure does not result in data loss.</p></article>
+        <article class="card"><h3>Network Privacy</h3><p>WireGuard VPN: Secure, high-performance tunnels for remote access. No open ports, no public exposure.</p></article>
+        <article class="card"><h3>DNS & Filtering</h3><p>Pi-hole / AdGuard Home: Network-wide ad blocking and tracker prevention at the DNS level.</p></article>
+        <article class="card"><h3>Data Sync</h3><p>Nextcloud: A full replacement for Google Drive/Dropbox, handling files, calendars, and contacts privately.</p></article>
+        <article class="card"><h3>Backup Posture</h3><p>3-2-1 Strategy: Local snapshots, off-site encrypted copies, and verified restore paths.</p></article>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Intelligence Layer</span>
+        <h2>The Operator Stack.</h2>
+        <p class="lede">The software that turns a server into a Digital Chief of Staff.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card"><h3>Local LLM Engine</h3><p>Ollama / vLLM: High-performance local inference for private AI models without cloud API calls.</p></article>
+        <article class="card"><h3>Home Intelligence</h3><p>Home Assistant: The central brain for all smart-home devices, running entirely local.</p></article>
+        <article class="card"><h3>Visual Intelligence</h3><p>Frigate: Local AI-powered camera detection and event recording with zero cloud uploads.</p></article>
+        <article class="card"><h3>Media Management</h3><p>Immich: High-performance photo and video backup and organization, mirroring the "cloud" experience locally.</p></article>
+        <article class="card"><h3>Monitoring</h3><p>Prometheus & Grafana: Real-time system health tracking and alerting to ensure 100% uptime.</p></article>
+      </div>
+    </section>
+
+    <section class="cta-shell">
+      <div class="container cta-band">
+        <div>
+          <span class="eyebrow">Next step</span>
+          <h2>Ready to build your fortress?</h2>
+        </div>
+        <div class="button-row"><a class="button" href="contact.html">Book a Fit Call</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div><a class="brand" href="index.html"><img class="footer-wordmark" src="assets/img/branding/trustline-wordmark.png" alt="Trustline"></a><p>Private Digital Estates for people who value ownership. Local AI. Zero rent.</p></div>
+        <div class="footer-links"><a href="solutions.html">Solutions</a><a href="local-ai-operator.html">AI Operator</a><a href="pricing.html">Pricing</a><a href="process.html">Process</a><a href="about.html">About</a><a href="contact.html">Fit Call</a></div>
+      </div>
+      <small>&copy; 2026 Trustline. Private infrastructure. Local AI. One operator.</small>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
