@@ -864,3 +864,28 @@ textarea {
     padding: 0 0.5rem;
   }
 }
+
+.next-step-container {
+  text-align: center;
+  padding-block: 3rem;
+  border-top: 1px solid var(--line);
+  margin-top: 2rem;
+}
+
+.next-step-content {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 60ch;
+  margin-inline: auto;
+}
+
+.next-step-content p {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-weight: 600;
+  color: var(--text);
+}
+
+.next-step-container .button-row {
+  justify-content: center;
+  margin-top: 0;
+}
