@@ -921,9 +921,9 @@ textarea {
   inset: 0;
   pointer-events: none;
   background: 
-    linear-gradient(to bottom, var(--bg) 0%, transparent 30%),
-    linear-gradient(to top, var(--bg) 0%, transparent 30%),
-    radial-gradient(ellipse at center, transparent 40%, var(--bg) 85%);
+    linear-gradient(to bottom, var(--bg) 0%, transparent 40%),
+    linear-gradient(to top, var(--bg) 0%, transparent 40%),
+    radial-gradient(circle at center, transparent 60%, var(--bg) 100%);
 }
 
 @media (max-width: 768px) {
