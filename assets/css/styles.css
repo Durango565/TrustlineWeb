@@ -833,7 +833,11 @@ textarea {
   padding: 0 1rem;
   gap: 1.5rem;
   white-space: nowrap;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.mobile-bottom-nav li {
+  flex-shrink: 0;
 }
 
 .mobile-bottom-nav a {

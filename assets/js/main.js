@@ -1,10 +1,5 @@
-const navToggle = document.querySelector("[data-nav-toggle]");
 const siteNav = document.querySelector("[data-site-nav]");
 
-if (navToggle && siteNav) {
-  navToggle.addEventListener("click", () => {
-    const expanded = navToggle.getAttribute("aria-expanded") === "true";
-    navToggle.setAttribute("aria-expanded", String(!expanded));
-    siteNav.classList.toggle("is-open");
-  });
+if (siteNav) {
+  // Keep it for desktop, but we no longer need the toggle logic for mobile dropdown
 }
