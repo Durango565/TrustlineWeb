@@ -906,6 +906,8 @@ textarea {
   width: 100%;
   height: clamp(400px, 70vh, 800px);
   margin-top: 2rem;
+  border-radius: var(--radius);
+  overflow: hidden;
 }
 
 .sovereign-shift-img {
@@ -919,9 +921,10 @@ textarea {
   inset: 0;
   pointer-events: none;
   background: 
-    radial-gradient(circle, transparent 20%, var(--bg) 100%),
-    linear-gradient(to bottom, var(--bg) 0%, transparent 15%, transparent 85%, var(--bg) 100%),
-    linear-gradient(to right, var(--bg) 0%, transparent 15%, transparent 85%, var(--bg) 100%);
+    linear-gradient(to bottom, var(--bg), transparent 15%),
+    linear-gradient(to top, var(--bg), transparent 15%),
+    linear-gradient(to right, var(--bg), transparent 15%),
+    linear-gradient(to left, var(--bg), transparent 15%);
 }
 
 @media (max-width: 768px) {
