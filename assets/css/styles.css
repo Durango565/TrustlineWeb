@@ -139,7 +139,8 @@ textarea {
 }
 
 .header-inner {
-  grid-template-columns: auto auto;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   min-height: 5rem;
 }
@@ -405,14 +406,10 @@ p {
   gap: 0.8rem;
 }
 
-.dashboard-list li,
-.inline-list li,
-.feature-list li,
-.timeline-item,
-.check-list li,
-.pricing-meta li {
+.dashboard-list div, .feature-list div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 1rem;
 }
 
