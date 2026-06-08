@@ -22,7 +22,7 @@
   padding: 0.8rem 1.1rem;
   border-radius: 999px;
   background: linear-gradient(135deg, var(--accent), #77f0da);
-  color: #000000;
+  color: #000000 !important;
   font-weight: 700;
   box-shadow: 0 10px 32px rgba(62, 230, 198, 0.18);
   margin: 0.25rem;
@@ -104,7 +104,7 @@ textarea {
   top: -3rem;
   padding: 0.75rem 1rem;
   background: var(--accent);
-  color: #000000;
+  color: #000000 !important;
   border-radius: 999px;
   z-index: 20;
 }
@@ -219,7 +219,7 @@ textarea {
 }
 .form-status.success {
   background: rgba(46, 204, 113, 0.1);
-  color: #2ecc71;
+  color: #000000 !important;
   border: 1px solid #2ecc71;
 }
 .form-status.error {
@@ -245,7 +245,6 @@ textarea {
 
 .site-nav a.active {
   color: var(--accent);
-  border-bottom: 2px solid var(--accent);
 }
 
 }
@@ -360,7 +359,7 @@ p {
 
 .button {
   background: linear-gradient(135deg, var(--accent), #7ef2dc);
-  color: #000000;
+  color: #000000 !important;
 }
 
 .button-secondary {
@@ -435,7 +434,7 @@ p {
   border-radius: 999px;
   padding: 0.35rem 0.7rem;
   background: rgba(62, 230, 198, 0.08);
-  color: var(--accent);
+  color: #000000 !important;
   font-size: 0.9rem;
 }
 
@@ -883,7 +882,7 @@ textarea {
 .mobile-bottom-nav a[aria-current="page"],
 .mobile-bottom-nav a.active,
 .mobile-bottom-nav a:hover {
-  color: var(--accent);
+  color: #000000 !important;
 }
 
 .mobile-bottom-nav a.active {
