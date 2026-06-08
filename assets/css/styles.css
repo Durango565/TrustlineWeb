@@ -139,8 +139,7 @@ textarea {
 }
 
 .header-inner {
-  display: flex;
-  justify-content: space-between;
+  grid-template-columns: auto auto;
   align-items: center;
   min-height: 5rem;
 }
@@ -228,6 +227,13 @@ textarea {
   color: #e74c3c;
   border: 1px solid #e74c3c;
 }
+}
+
+.site-nav a,
+.nav-cta,
+.button,
+.button-secondary {
+  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease, color 180ms ease, box-shadow 180ms ease;
 }
 
 .site-nav a {
@@ -406,10 +412,14 @@ p {
   gap: 0.8rem;
 }
 
-.dashboard-list div, .feature-list div {
+.dashboard-list li,
+.inline-list li,
+.feature-list li,
+.timeline-item,
+.check-list li,
+.pricing-meta li {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 1rem;
 }
 
