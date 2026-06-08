@@ -15,7 +15,7 @@ function initContactForm() {
     e.preventDefault();
     
     const statusDiv = document.getElementById('form-status');
-    const submitBtn = contactForm.querySelector('button[type=\"submit\"]');
+    const submitBtn = contactForm.querySelector('button[type="submit"]');
     const originalBtnText = submitBtn.innerText;
 
     // Visual feedback: Loading
