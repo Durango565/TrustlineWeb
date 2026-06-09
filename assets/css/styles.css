@@ -216,7 +216,18 @@ textarea {
   color: var(--text);
 }
 
-.nav-cta {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 0.8rem 1.1rem;\n  border-radius: 999px;\n  background: linear-gradient(135deg, var(--accent), #77f0da);\n  color: #031014;\n  font-weight: 700;\n  box-shadow: 0 10px 32px rgba(62, 230, 198, 0.18);\n  margin: 0.25rem;\n}
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.1rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), #77f0da);
+  color: #031014;
+  font-weight: 700;
+  box-shadow: 0 10px 32px rgba(62, 230, 198, 0.18);
+  margin: 0.25rem;
+}
 
 .nav-cta:hover,
 .button:hover,
@@ -714,6 +725,7 @@ textarea {
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
+    gap: 1.5rem;
   }
 
   .hero,
@@ -854,7 +866,7 @@ textarea {
   color: var(--accent);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .mobile-bottom-nav {
     display: block;
   }
@@ -927,7 +939,7 @@ textarea {
     radial-gradient(circle at center, transparent 60%, var(--bg) 100%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .sovereign-shift-visual {
     height: 300px;
   }
