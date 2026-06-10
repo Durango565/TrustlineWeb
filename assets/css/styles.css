@@ -842,11 +842,12 @@ textarea {
 .mobile-bottom-nav ul {
   display: flex;
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 1rem;
   gap: 1.5rem;
   white-space: nowrap;
-  justify-content: center;
+  justify-content: flex-start;
+  width: fit-content;
 }
 
 .mobile-bottom-nav li {
