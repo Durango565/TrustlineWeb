@@ -847,7 +847,7 @@ textarea {
   gap: 1.5rem;
   white-space: nowrap;
   justify-content: flex-start;
-  width: fit-content;
+  width: max-content;
 }
 
 .mobile-bottom-nav li {
@@ -855,6 +855,9 @@ textarea {
 }
 
 .mobile-bottom-nav a {
+  display: inline-block;
+  white-space: nowrap;
+  flex-shrink: 0;
   color: var(--muted);
   font-size: 0.85rem;
   font-weight: 600;
