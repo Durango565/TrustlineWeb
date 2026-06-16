@@ -1,11 +1,4 @@
-const siteNav = document.querySelector("[data-site-nav]");
-const navToggle = document.querySelector(".nav-toggle");
 
-if (navToggle && siteNav) {
-  navToggle.addEventListener("click", () => {
-    siteNav.classList.toggle("is-open");
-  });
-}
 
 /* ------------------------------------------------------------------
    Contact form: asynchronous submission
