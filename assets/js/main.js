@@ -1,7 +1,10 @@
 const siteNav = document.querySelector("[data-site-nav]");
+const navToggle = document.querySelector(".nav-toggle");
 
-if (siteNav) {
-  // Kept for desktop; the mobile dropdown toggle logic is no longer needed.
+if (navToggle && siteNav) {
+  navToggle.addEventListener("click", () => {
+    siteNav.classList.toggle("is-open");
+  });
 }
 
 /* ------------------------------------------------------------------
