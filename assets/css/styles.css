@@ -436,6 +436,10 @@ p {
   gap: 1rem;
 }
 
+.feature-block {
+  margin-top: 1rem;
+}
+
 .metric {
   min-height: 100%;
 }

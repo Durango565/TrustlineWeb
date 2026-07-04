@@ -65,6 +65,7 @@
     ".next-step-content",
     ".cta-band > div",
     ".sovereign-shift-visual",
+    ".feature-block",
   ].join(", ");
 
   document.querySelectorAll(soloSelector).forEach((el) => {
