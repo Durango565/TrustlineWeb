@@ -437,7 +437,11 @@ p {
 }
 
 .feature-block {
-  margin-top: 1rem;
+  margin-top: 1.75rem;
+}
+
+.pricing-grid + .quote-panel {
+  margin-top: 1.75rem;
 }
 
 .metric {

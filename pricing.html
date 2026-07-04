@@ -72,7 +72,7 @@
             <p>A deep dive into your current services, subscriptions, data, and household needs. You receive a precise migration plan and hardware recommendation — yours to keep whether or not you proceed.</p>
             <p>If you already own hardware you'd like to integrate — a home server, unused workstations, storage drives, networking gear — the assessment includes evaluating whether reusing your own hardware can reduce your build cost. We are not here to sell you gear you already have.</p>
           </div>
-          <p class="pricing-card-meta">Founding Member period — standard rate <s>$300-$500</s></p>
+          <p class="pricing-card-meta">Founding Member period — standard rate <s>$300-$500</s>. When charged at the standard rate, the full amount is credited toward your deployment.</p>
         </article>
         <article class="pricing-card">
           <div class="pricing-card-head">
@@ -114,6 +114,7 @@
       <div class="card-grid">
         <article class="card"><h3>What the setup fee actually buys</h3><p>The setup fee is not IT labor priced by the hour. It is what a household pays to skip 80–120 hours of research, hardware trial-and-error, migration scripting, and troubleshooting — and to skip it with a data-loss guarantee. Comparable integration work from an IT consultant runs $6,000–$10,000 in labor alone, without the productized process or the continued relationship. The setup fee is roughly one-third to half the total price of a founding deployment, which is standard for custom integration work of this scope. The price also includes six months of Guardian Care during your commissioning window — active refinement of your estate, not just monitoring — worth $600 at the founding rate or $1,800 at standard. After commissioning, continuation is optional at $100/month.</p></article>
         <article class="card"><h3>The subscription math</h3><p>Most households already spend $60–$120/month renting fragments of what Trustline builds — cloud photo storage, document sync, AI subscriptions, password managers, media hosting. That's $700–$1,400 a year, forever, with prices rising and ownership at zero. A Trustline estate pays for itself against those subscriptions in roughly 5–8 years, and every year after that is pure upside — plus you own something the cloud services will never sell you: sovereignty over your own data.</p></article>
+        <article class="card"><h3>Who this is actually for</h3><p>If you're technical and love tinkering, you've probably already built something like this — and honestly, you don't need us. Trustline exists for everyone else: people who've wanted this level of privacy for years but were never going to spend a hundred-plus hours becoming their own system administrator to get it. The price only looks high if you value your time at zero. What you're buying is the result — privacy, ownership, and a system that runs itself — without the second job.</p></article>
       </div>
     </section>
 
@@ -124,10 +125,10 @@
         <p class="lede">Every Trustline estate is built on the same foundation, regardless of which AI tier you choose — roughly $3,000, every time.</p>
       </div>
       <div class="pricing-grid">
-        <article class="card"><h3>The server</h3><p>Built from day one to accept full AI expansion. Adding AI power later is a drop-in upgrade, not a rebuild.</p></article>
-        <article class="card"><h3>Two-speed storage</h3><p>2TB of mirrored high-speed storage for your system and services, and 12TB of mirrored deep storage for your library: photos, music, documents, backups. Fast where speed matters, vast where capacity matters. Every byte exists on two drives.</p></article>
-        <article class="card"><h3>The router</h3><p>Dual 10-gigabit ports, built-in VPN so you can reach your home securely from anywhere, and network-wide ad blocking for every device in the house. Works with your existing Wi-Fi.</p></article>
-        <article class="card"><h3>Battery backup</h3><p>Your server shuts down cleanly in a power outage. Your data is never caught mid-write.</p></article>
+        <article class="card"><h3>Server</h3><p>8-core Ryzen 7 class CPU (Ryzen 9 where the build calls for it), 32GB+ RAM, running a hardened Fedora Server baseline, built from day one to accept full AI expansion — upgrading tiers later is a drop-in card, not a rebuild.</p></article>
+        <article class="card"><h3>Storage</h3><p>14TB of redundant storage on mirrored ZFS — 2TB high-speed mirrored NVMe for your system and services, 12TB mirrored deep storage for your library. Every byte exists on two drives.</p></article>
+        <article class="card"><h3>Network</h3><p>High-performance router with dual 10-gigabit ports, built-in VPN for secure access from anywhere, and network-wide ad blocking. Works with your existing Wi-Fi.</p></article>
+        <article class="card"><h3>Power</h3><p>Battery backup for clean shutdowns — your data is never caught mid-write.</p></article>
       </div>
     </section>
 
@@ -141,21 +142,21 @@
         <article class="pricing-card">
           <div class="pricing-card-head">
             <strong>Essential</strong>
-            <p class="price">~$3,700</p>
+            <p class="price">~$4,000</p>
           </div>
           <div class="pricing-card-body">
-            <p>One dedicated 128GB unified-memory AI node plus a 16GB utility GPU. The main node runs the AI Operator and your personal assistant on a full-size model — the same class of intelligence as the big cloud services, running entirely in your home. The utility card handles camera detection and provides a lightweight backup model for general chat when the main node is busy, so your estate stays responsive under load.</p>
-            <p>The utility card is typically a used server-grade GPU (Tesla or Quadro-class) sourced at ~$100–150. It's the right tool for camera detection and lightweight inference, and it's a fraction of the cost of an equivalent-capability new consumer card. We source new when new is right; we source used when used is right. Either way, hardware passes through at cost plus 5%.</p>
+            <p>One dedicated 128GB unified-memory AI node plus a 16GB utility GPU. The main node runs the AI Server Operator and Personal AI Agent on a full-size model; the utility card handles camera detection (Frigate) and keeps a lightweight backup model available for General Intelligence Chat. Supports one AI conversation at a time — the baseline for everything to work well.</p>
+            <p>The utility card is typically a used datacenter-class GPU (V100/A100-class, 16GB) sourced at roughly $300. It's the right tool for camera detection and lightweight inference, and it's a fraction of the cost of an equivalent-capability new consumer card. We source new when new is right; we source used when used is right. Either way, hardware passes through at cost plus 5%.</p>
           </div>
           <p class="pricing-card-meta">For households where AI is a utility, not a constant companion.</p>
         </article>
         <article class="pricing-card">
           <div class="pricing-card-head">
             <strong>Household</strong>
-            <p class="price">~$5,000</p>
+            <p class="price">~$5,500</p>
           </div>
           <div class="pricing-card-body">
-            <p>The Essential node plus a dedicated 24GB GPU. The Operator stays always-on while a second family member chats, drafts, or researches with zero contention.</p>
+            <p>Everything in Essential, plus a dedicated 24GB GPU. Three inference backends means the Operator stays always-on while two or three people use AI simultaneously — chat, drafting, research — without contention.</p>
           </div>
           <p class="pricing-card-meta">For households where more than one person uses AI daily.</p>
         </article>
@@ -165,9 +166,9 @@
             <p class="price">~$7,500</p>
           </div>
           <div class="pricing-card-body">
-            <p>The unified-memory node, dual 24GB GPUs, and a utility card. Full concurrency across the Operator, personal assistants, and open-ended AI work — with automatic failover between backends. Nothing queues; if one backend is busy, the work shifts to another.</p>
+            <p>Everything in Household, with the single 24GB GPU upgraded to a dual-GPU pair linked with NVLink — 48GB of pooled capacity that runs a genuinely different class of model, not just a bigger context window. Two tiers of capable AI plus the utility card: full concurrency for three or more users, with automatic failover. Nothing queues.</p>
           </div>
-          <p class="pricing-card-meta">This is the configuration Trustline itself runs on.</p>
+          <p class="pricing-card-meta">The ideal configuration: two tiers of capable AI and a utility card, so there's never a gap between "excellent" and "busy."</p>
         </article>
       </div>
       <div class="quote-panel">
@@ -187,13 +188,13 @@
         <article class="pricing-card">
           <div class="pricing-card-head">
             <strong>Essential</strong>
-            <p class="price">~$11,700</p>
+            <p class="price">~$12,000</p>
           </div>
           <div class="pricing-card-body">
             <ul class="feature-list">
-              <li><span>Setup (The Setup Week)</span><span>$5,000</span></li>
+              <li><span>Setup + 6 months Guardian Care</span><span>$5,000</span></li>
               <li><span>Core infrastructure</span><span>~$3,000</span></li>
-              <li><span>AI hardware</span><span>~$3,700</span></li>
+              <li><span>AI hardware</span><span>~$4,000</span></li>
             </ul>
           </div>
           <p class="pricing-card-meta">All-in, owned outright</p>
@@ -201,13 +202,13 @@
         <article class="pricing-card">
           <div class="pricing-card-head">
             <strong>Household</strong>
-            <p class="price">~$13,000</p>
+            <p class="price">~$13,500</p>
           </div>
           <div class="pricing-card-body">
             <ul class="feature-list">
-              <li><span>Setup (The Setup Week)</span><span>$5,000</span></li>
+              <li><span>Setup + 6 months Guardian Care</span><span>$5,000</span></li>
               <li><span>Core infrastructure</span><span>~$3,000</span></li>
-              <li><span>AI hardware</span><span>~$5,000</span></li>
+              <li><span>AI hardware</span><span>~$5,500</span></li>
             </ul>
           </div>
           <p class="pricing-card-meta">All-in, owned outright</p>
@@ -219,7 +220,7 @@
           </div>
           <div class="pricing-card-body">
             <ul class="feature-list">
-              <li><span>Setup (The Setup Week)</span><span>$5,000</span></li>
+              <li><span>Setup + 6 months Guardian Care</span><span>$5,000</span></li>
               <li><span>Core infrastructure</span><span>~$3,000</span></li>
               <li><span>AI hardware</span><span>~$7,500</span></li>
             </ul>
@@ -238,10 +239,10 @@
         <p class="lede">Every Trustline estate is unique to the household it serves. Guardian Care during your first months of ownership is how we tune it — actively refining the system to your usage patterns, integrating new capabilities as we ship them, and making sure your Setup Week guarantee is honored not just on Day 7 but through the first months of real use.</p>
       </div>
       <div class="quote-panel">
-        <strong>Founding Member Setup — 6 months of Guardian Care included and required</strong>
-        <p>Founding Members work with us during this commissioning window as partners in refining the product itself. Every improvement we build ships to your estate first, informed by how your household actually uses it.</p>
         <strong>Standard Rate Setup — 3 months of Guardian Care included and required</strong>
-        <p>Once the product is out of its founding phase, the commissioning window shortens to three months — enough time to validate, tune, and integrate the estate with your household before handing off full stewardship.</p>
+        <p>Every deployment includes a commissioning window immediately after The Setup Week — active tuning, validation, and integration with your household before handing off full stewardship.</p>
+        <strong>Founding Member Setup — extended to 6 months</strong>
+        <p>Founding Members get double the commissioning window because they're shaping the product itself: every improvement we build during those months ships to their estates first.</p>
         <strong>After your commissioning period</strong>
         <p class="price">$100<span class="muted-note">/mo</span></p>
         <p class="muted-note">Standard rate <s>$300/mo</s> — Founding Members lock in $100/month for as long as they remain subscribed, no time limit.</p>
@@ -286,7 +287,7 @@
         </article>
         <article class="faq-item">
           <h3>Does the AI Operator send my data to the cloud?</h3>
-          <p>Never. The Operator runs on local inference hardware inside your home — no cloud API calls, no telemetry, no training on your data. It knows your files and your home state, but it knows them only for you. Its actions are also bounded: it does not make irreversible changes without your approval.</p>
+          <p>Never — with one exception: it can look things up on the web when you ask, like any private browser search. What never leaves your network: your files, your conversations, your documents, and your data. No company logs your AI activity, trains on it, or retains it. It knows your files and your home state, but it knows them only for you. Its actions are also bounded: it does not make irreversible changes without your approval.</p>
         </article>
         <article class="faq-item">
           <h3>Why not just buy a NAS for $600?</h3>
