@@ -440,6 +440,12 @@ p {
   margin-top: 1.75rem;
 }
 
+/* Direct child of the section, not a grid cell: the shared
+   .card { min-height: 100% } must not resolve against the section */
+.card.feature-block {
+  min-height: 0;
+}
+
 .pricing-grid + .quote-panel {
   margin-top: 1.75rem;
 }
