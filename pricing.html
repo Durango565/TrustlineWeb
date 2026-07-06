@@ -25,7 +25,7 @@
         "name": "What happens if Trustline disappears tomorrow?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nothing happens to your estate. That is the entire point. Your system is built on durable, open-source, industry-standard software — Nextcloud, Home Assistant, WireGuard — running on hardware you own outright. There are no proprietary formats, no license servers, and no dependency on us to keep running. At handoff you receive full documentation, and any competent administrator could take over stewardship. The exit door is part of the architecture."
+          "text": "Nothing happens to your estate. That is the entire point. Your system is built on durable, open-source, industry-standard software — Nextcloud, Home Assistant, OpenVPN — running on hardware you own outright. There are no proprietary formats, no license servers, and no dependency on us to keep running. At handoff you receive full documentation, and any competent administrator could take over stewardship. The exit door is part of the architecture."
         }
       },
       {
@@ -122,6 +122,14 @@
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Typically 5-7 days, and you never go dark. We build your estate in the background, mirror your data exactly, and validate every byte against the original. You only switch over once the shadow system is proven. Zero downtime, zero data loss — that's not a hope, it's the sequence."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do you deploy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Trustline is based in Northeast Ohio. We deploy across the greater Ohio region — roughly a Cleveland–Columbus–Pittsburgh–Detroit radius. Farther deployments are considered case by case; mention your location on the fit call and we'll give you a straight answer. Setup Week is scheduled on your calendar, not ours — the architect is on-site and fully dedicated for the duration."
         }
       }
     ]
@@ -261,7 +269,7 @@
             <p class="price">~$4,000</p>
           </div>
           <div class="pricing-card-body">
-            <p>One dedicated 128GB unified-memory AI node plus a 16GB utility GPU. The main node runs the AI Server Operator and Personal AI Agent on a full-size model; the utility card handles camera detection (Frigate) and keeps a lightweight backup model available for General Intelligence Chat. Supports one AI conversation at a time — the baseline for everything to work well.</p>
+            <p>One dedicated 128GB unified-memory AI node plus a 16GB utility GPU. The main node runs the AI Server Operator and Personal AI Agent on a full-size model; the utility card keeps a lightweight backup model available for General Intelligence Chat and handles camera detection (Frigate) when your household adds cameras. Supports one AI conversation at a time — the baseline for everything to work well.</p>
           </div>
           <p class="pricing-card-meta">For households where AI is a utility, not a constant companion.</p>
         </article>
@@ -377,7 +385,7 @@
       <div class="faq-grid">
         <article class="faq-item">
           <h3>What happens if Trustline disappears tomorrow?</h3>
-          <p>Nothing happens to your estate. That is the entire point. Your system is built on durable, open-source, industry-standard software — Nextcloud, Home Assistant, WireGuard — running on hardware you own outright. There are no proprietary formats, no license servers, and no dependency on us to keep running. At handoff you receive full documentation, and any competent administrator could take over stewardship. The exit door is part of the architecture.</p>
+          <p>Nothing happens to your estate. That is the entire point. Your system is built on durable, open-source, industry-standard software — Nextcloud, Home Assistant, OpenVPN — running on hardware you own outright. There are no proprietary formats, no license servers, and no dependency on us to keep running. At handoff you receive full documentation, and any competent administrator could take over stewardship. The exit door is part of the architecture.</p>
         </article>
         <article class="faq-item">
           <h3>What happens when my internet goes out?</h3>
@@ -428,6 +436,10 @@
           <h3>How long does the migration take?</h3>
           <p>Typically 5-7 days, and you never go dark. We build your estate in the background, mirror your data exactly, and validate every byte against the original. You only switch over once the shadow system is proven. Zero downtime, zero data loss — that's not a hope, it's the sequence.</p>
         </article>
+        <article class="faq-item">
+          <h3>Where do you deploy?</h3>
+          <p>Trustline is based in Northeast Ohio. We deploy across the greater Ohio region — roughly a Cleveland–Columbus–Pittsburgh–Detroit radius. Farther deployments are considered case by case; mention your location on the fit call and we'll give you a straight answer. Setup Week is scheduled on your calendar, not ours — the architect is on-site and fully dedicated for the duration.</p>
+        </article>
       </div>
     </section>
 
@@ -454,7 +466,7 @@
     <div class="container">
       <div class="footer-top">
         <div><a class="brand" href="index.html"><img class="footer-wordmark" src="assets/img/branding/trustline-wordmark.png" alt="Trustline Technologies"></a><p>Every dollar itemized. Hardware at cost. No bundled mystery.</p></div>
-        <div class="footer-links"><a href="solutions.html">Solutions</a><a href="local-ai-operator.html">AI Operator</a><a href="process.html">Process</a><a href="pricing.html" aria-current="page">Pricing</a><a href="about.html">About</a><a href="contact.html">Fit Call</a></div>
+        <div class="footer-links"><a href="solutions.html">Solutions</a><a href="local-ai-operator.html">AI Operator</a><a href="process.html">Process</a><a href="pricing.html" aria-current="page">Pricing</a><a href="about.html">About</a><a href="contact.html">Fit Call</a><a href="features.html">Under the Hood</a><a href="privacy.html">Privacy</a></div>
       </div>
       <small>&copy; 2026 Trustline Technologies. Private infrastructure. Local AI. One operator.</small>
     </div>

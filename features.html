@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Technical Specifications | Trustline Technologies Private Infrastructure</title>
-  <meta name="description" content="The technical blueprint of a Private Digital Estate: Core Infrastructure, AI Power Tiers, and the Operator Stack, built on durable, open-source software.">
+  <title>Under the Hood | Trustline Technologies</title>
+  <meta name="description" content="The full open-source stack a Trustline estate runs — Fedora, ZFS, Nextcloud, Immich, pfSense, local AI — named and bounded for the technical friend vetting it.">
   <link rel="canonical" href="https://trustlinetechnologies.com/features.html">
-  <meta property="og:site_name" content="Trustline">
-  <meta property="og:title" content="Technical Specifications | Trustline">
-  <meta property="og:description" content="The technical blueprint of the Private Digital Estate.">
+  <meta property="og:site_name" content="Trustline Technologies">
+  <meta property="og:title" content="Under the Hood | Trustline Technologies">
+  <meta property="og:description" content="The full open-source stack a Trustline estate runs — named, chosen for durability, with every boundary explained for the technical reader.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://trustlinetechnologies.com/features.html">
-  <meta property="og:image" content="assets/img/branding/trustline-wordmark.png">
+  <meta property="og:image" content="https://trustlinetechnologies.com/assets/img/branding/trustline-wordmark.png">
   <link rel="icon" type="image/png" href="assets/img/branding/trustline-mark.png">
   <link rel="apple-touch-icon" href="assets/img/branding/trustline-mark.png">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -20,7 +20,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="Trustline home"><span class="brand-mark" aria-hidden="true"><img src="assets/img/branding/trustline-mark.png" alt=""></span><span class="brand-text">Trustline</span></a>
+      <a class="brand" href="index.html" aria-label="Trustline Technologies home"><span class="brand-mark" aria-hidden="true"><img src="assets/img/branding/trustline-mark.png" alt=""></span><span class="brand-text">Trustline Technologies</span></a>
       <nav class="site-nav" id="site-nav" aria-label="Primary" data-site-nav>
         <ul>
           <li><a href="solutions.html">Solutions</a></li>
@@ -37,79 +37,61 @@
   <main id="main">
     <section class="container page-hero split-section">
       <div>
-        <span class="eyebrow">Technical Blueprint</span>
-        <h1>The Sovereign Stack.</h1>
-        <p class="lede">For those who want to see under the hood. While the AI Operator removes the friction, the foundation is built on industry-standard, open-source, and durable infrastructure.</p>
+        <span class="eyebrow">Under the Hood</span>
+        <h1>The full stack, named.</h1>
+        <p class="lede">If you're the technical friend vetting this for someone — welcome. Here is exactly what a Trustline estate runs, why each piece was chosen, and where the boundaries are. No abstractions.</p>
       </div>
       <div class="quote-panel">
         <strong>Design Philosophy</strong>
-        <p>We prioritize stability over novelty. Every tool in the stack is chosen for its ability to be self-hosted, audited, and maintained without corporate dependency.</p>
+        <p>We prioritize stability over novelty. Every tool in the stack is chosen because it can be self-hosted, audited, and maintained without corporate dependency — open-source, standard, and durable.</p>
       </div>
     </section>
 
     <section class="container">
       <div class="section-heading">
-        <span class="eyebrow">Core Infrastructure</span>
-        <h2>The baseline every estate starts with.</h2>
-        <p class="lede">The server, storage, network, and backup foundation that keeps your data safe, private, and available.</p>
+        <span class="eyebrow">The Stack</span>
+        <h2>What a Trustline estate runs.</h2>
+        <p class="lede">Every service is containerized with Docker on a hardened base — each piece isolated, reproducible, and owned outright.</p>
       </div>
       <div class="card-grid">
-        <article class="card"><h3>OS Baseline</h3><p>Fedora Server: A stable, enterprise-grade Linux foundation with a focus on security and long-term maintainability.</p></article>
-        <article class="card"><h3>Storage Architecture</h3><p>RAID 1 / ZFS: Mirrored disks to ensure that a single hardware failure does not result in data loss.</p></article>
-        <article class="card"><h3>Network Privacy</h3><p>WireGuard VPN: Secure, high-performance tunnels for remote access. No open ports, no public exposure.</p></article>
-        <article class="card"><h3>DNS & Filtering</h3><p>Pi-hole / AdGuard Home: Network-wide ad blocking and tracker prevention at the DNS level.</p></article>
-        <article class="card"><h3>Data Sync</h3><p>Nextcloud: A full replacement for Google Drive/Dropbox, handling files, calendars, and contacts privately.</p></article>
-        <article class="card"><h3>Backup Posture</h3><p>3-2-1 Strategy: Local snapshots, off-site encrypted copies, and verified restore paths.</p></article>
+        <article class="card"><h3>Foundation</h3><p>Fedora Server on mirrored ZFS. Services containerized with Docker, so each piece is isolated, reproducible, and independently upgradeable.</p></article>
+        <article class="card"><h3>Files &amp; office</h3><p>Nextcloud (Postgres + Redis backed) — files, documents with live collaboration, calendar, contacts, and phone sync. The private replacement for Drive, Dropbox, and Microsoft 365.</p></article>
+        <article class="card"><h3>Photos</h3><p>Immich with on-server machine learning — search, faces, and automatic phone backup, all computed locally with nothing uploaded to anyone.</p></article>
+        <article class="card"><h3>Music</h3><p>Navidrome — your own streaming server for a library you actually own.</p></article>
+        <article class="card"><h3>Notes</h3><p>SilverBullet — open-source, server-hosted notes that sync everywhere, stay readable forever, and are Operator-accessible.</p></article>
+        <article class="card"><h3>Passwords</h3><p>Vaultwarden (Bitwarden-compatible), part of the standard build — final validation in commissioning.</p></article>
+        <article class="card"><h3>Network</h3><p>pfSense router with OpenVPN built in — secure access from anywhere — plus network-wide ad blocking at the DNS level.</p></article>
+        <article class="card"><h3>Smart home &amp; cameras</h3><p>Home Assistant for compatible smart devices, running entirely local. Camera detection (Frigate) available — scoped and validated during your assessment when your household has cameras.</p></article>
+        <article class="card"><h3>Monitoring</h3><p>Prometheus, Grafana, Uptime Kuma, cAdvisor, and node exporters — the metrics layer the Operator's health answers are grounded in. When it says everything's okay, it's reading instruments, not guessing.</p></article>
+        <article class="card"><h3>Storage &amp; backup</h3><p>2TB mirrored NVMe for system and services + 12TB mirrored deep storage; every byte on two drives; battery-backed clean shutdown; optional encrypted off-site backup as an upgrade path.</p></article>
       </div>
     </section>
 
     <section class="container">
       <div class="section-heading">
-        <span class="eyebrow">AI Power Tiers</span>
-        <h2>Intelligence scaling.</h2>
-        <p class="lede">Local AI capacity is sized by household use. See pricing for current Essential, Household, and Estate hardware guidance.</p>
+        <span class="eyebrow">The AI, separated</span>
+        <h2>Three systems, three boundaries.</h2>
+        <p class="lede">Domain separation is a security boundary, not a product tier. Each AI system has its own scope and cannot reach across into another's.</p>
       </div>
       <div class="card-grid">
-        <article class="card">
-          <h3>Essential</h3>
-          <p>Runs the AI Server Operator and Personal AI Agent locally for one AI conversation at a time, plus a utility GPU for camera detection and backup inference.</p>
-        </article>
-        <article class="card">
-          <h3>Household</h3>
-          <p>Everything in Essential, plus a dedicated GPU so the Operator stays active while two or three people use AI simultaneously.</p>
-        </article>
-        <article class="card">
-          <h3>Estate</h3>
-          <p>Everything in Household, with a dual-GPU NVLink pair for full concurrency across the Operator, assistants, and open-ended local AI work.</p>
-        </article>
-        <article class="card">
-          <h3>Upgrade path</h3>
-          <p>Every server is built to accept higher AI Power Tiers later without rebuilding the estate.</p>
-        </article>
+        <article class="card"><h3>AI Server Operator</h3><p>Infrastructure only. Runs bounded skills through an authenticated MCP layer, with no access to your personal data.</p></article>
+        <article class="card"><h3>Personal AI Agent</h3><p>Productivity only — documents, drafting, scheduling, memory. No server access.</p></article>
+        <article class="card"><h3>General Intelligence Chat</h3><p>Open WebUI on local models — everyday questions, writing, and research, running on your own hardware.</p></article>
       </div>
     </section>
 
     <section class="container">
-      <div class="section-heading">
-        <span class="eyebrow">Intelligence Layer</span>
-        <h2>The Operator Stack.</h2>
-        <p class="lede">The software that turns a server into your private AI Operator.</p>
-      </div>
-
-      <div class="card-grid">
-        <article class="card"><h3>Local LLM Engine</h3><p>Ollama / vLLM: High-performance local inference for private AI models without cloud API calls.</p></article>
-        <article class="card"><h3>Home Intelligence</h3><p>Home Assistant: The central brain for all smart-home devices, running entirely local.</p></article>
-        <article class="card"><h3>Visual Intelligence</h3><p>Frigate: Local AI-powered camera detection and event recording with zero cloud uploads.</p></article>
-        <article class="card"><h3>Media Management</h3><p>Immich: High-performance photo and video backup and organization, mirroring the "cloud" experience locally.</p></article>
-        <article class="card"><h3>Monitoring</h3><p>Prometheus & Grafana: Real-time system health tracking and alerting to ensure 100% uptime.</p></article>
-      </div>
+      <article class="card feature-block">
+        <h3>Bounded skills, by design.</h3>
+        <p>The AI Server Operator has no root access. It runs a set of pre-built, tested, scope-limited skills through an authenticated MCP layer — each doing one job with a verified boundary — so you get real automation without an AI holding open-ended access to your system. Sizing the AI hardware to your household is a pricing question: the tier names (Essential, Household, Estate), the dollar figures, and Guardian Care terms all live on <a href="pricing.html">the pricing page</a>, stated once so they never drift.</p>
+      </article>
     </section>
 
     <section class="cta-shell">
       <div class="container cta-band">
         <div>
           <span class="eyebrow">Next step</span>
-          <h2>Ready to build your fortress?</h2>
+          <h2>Vetted the stack? Let's talk deployment.</h2>
         </div>
         <div class="button-row"><a class="button" href="contact.html">Book a Fit Call</a></div>
       </div>
@@ -118,8 +100,8 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-top">
-        <div><a class="brand" href="index.html"><img class="footer-wordmark" src="assets/img/branding/trustline-wordmark.png" alt="Trustline"></a><p>Private Digital Estates for people who value ownership. Local AI. Zero rent.</p></div>
-        <div class="footer-links"><a href="solutions.html">Solutions</a><a href="local-ai-operator.html">AI Operator</a><a href="process.html">Process</a><a href="pricing.html">Pricing</a><a href="about.html">About</a><a href="contact.html">Fit Call</a></div>
+        <div><a class="brand" href="index.html"><img class="footer-wordmark" src="assets/img/branding/trustline-wordmark.png" alt="Trustline Technologies"></a><p>Private Digital Estates for people who value ownership. Local AI. Zero rent.</p></div>
+        <div class="footer-links"><a href="solutions.html">Solutions</a><a href="local-ai-operator.html">AI Operator</a><a href="process.html">Process</a><a href="pricing.html">Pricing</a><a href="about.html">About</a><a href="contact.html">Fit Call</a><a href="features.html" aria-current="page">Under the Hood</a><a href="privacy.html">Privacy</a></div>
       </div>
       <small>&copy; 2026 Trustline Technologies. Private infrastructure. Local AI. One operator.</small>
     </div>
