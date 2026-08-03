@@ -750,7 +750,7 @@ textarea {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .hero h1 {
+  .hero-headline {
     font-size: clamp(2.8rem, 5vw, 3.75rem);
   }
 
@@ -827,7 +827,7 @@ textarea {
 }
 
 @media (min-width: 72rem) {
-  .hero h1 {
+  .hero-headline {
     font-size: 4rem;
   }
 }
