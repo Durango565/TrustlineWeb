@@ -1107,3 +1107,99 @@ textarea {
   text-align: center;
   margin-top: 0.25rem;
 }
+
+/* Pricing page: foundation comparison and scoped total rows */
+.foundation-options {
+  display: grid;
+  gap: 1rem;
+}
+
+.foundation-option {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  min-width: 0;
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(13, 27, 34, 0.9), rgba(13, 27, 34, 0.75));
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.foundation-option-head {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.foundation-option-head h3 {
+  font-size: 1.35rem;
+}
+
+.foundation-option-head .price {
+  margin-top: 0.1rem;
+}
+
+.foundation-spec-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.foundation-spec-card {
+  display: grid;
+  align-content: start;
+  gap: 0.55rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.foundation-spec-card h4 {
+  color: var(--accent);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.foundation-option-footer {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ai-availability {
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.pricing-subheading {
+  margin: 1.5rem 0 -0.25rem;
+  color: var(--accent);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pricing-grid--two {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 48rem) {
+  .foundation-options,
+  .pricing-grid--two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .foundation-spec-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 47.99rem) {
+  .foundation-spec-grid {
+    grid-template-columns: 1fr;
+  }
+}
