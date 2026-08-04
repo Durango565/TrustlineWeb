@@ -1156,10 +1156,13 @@ textarea {
 }
 
 .foundation-spec-card h4 {
-  color: var(--accent);
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  margin: 0;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: clamp(1.2rem, 3vw, 1.55rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
 }
 
 .foundation-option-footer {
@@ -1176,11 +1179,13 @@ textarea {
 }
 
 .pricing-subheading {
-  margin: 1.5rem 0 -0.25rem;
-  color: var(--accent);
-  font-size: 0.95rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  margin: 2rem 0 1.25rem;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: clamp(1.2rem, 3vw, 1.55rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
 }
 
 .pricing-grid--two {
