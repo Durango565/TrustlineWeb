@@ -21,6 +21,7 @@
   <link rel="icon" type="image/png" href="assets/img/branding/trustline-mark.png">
   <link rel="apple-touch-icon" href="assets/img/branding/trustline-mark.png">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -116,6 +117,12 @@
           <label for="message">Anything else we should know?
             <textarea id="message" name="message" required></textarea>
           </label>
+          <div class="honeypot" aria-hidden="true">
+            <label for="website">Website
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </label>
+          </div>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAENOCqbzIhRPpndR" data-action="contact-form"></div>
           <div id="form-status" class="form-status hidden"></div>
           <button class="button" type="submit" id="contact-submit">Book My Fit Call</button>
         </form>
