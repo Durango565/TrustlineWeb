@@ -74,7 +74,7 @@
     <section class="container contact-layout">
       <div class="form-card" id="form-card">
         <h2>Start your move.</h2>
-        <p>Tell us about your setup. We will tell you if we can build your private digital estate and reduce the technical burden of owning it.</p>
+        <p>Tell us what you want to replace, which foundation and AI capacity seem closest to your needs, and when you want to move. The Private System Assessment will confirm the right configuration and final hardware plan.</p>
         <div class="accent-line"></div>
         <form id="contact-form" action="https://trustlinetechnologies.com/api/contact" method="post">
           <div class="field-grid">
@@ -93,13 +93,21 @@
             <input id="replace" name="replace" type="text" required>
           </label>
           <div class="field-grid">
-            <label for="tier">Which AI Power Tier looks right?
+            <label for="foundation">Which foundation sounds closest?
+              <select id="foundation" name="foundation" required>
+                <option value="" selected>Not sure yet — help me figure it out</option>
+                <option>Essential Foundation — roughly $1,000–$1,500</option>
+                <option>Expansion-Ready Foundation — roughly $3,500</option>
+                <option>I want to discuss reusing hardware first</option>
+              </select>
+            </label>
+            <label for="tier">Which AI capacity sounds closest?
               <select id="tier" name="tier" required>
-                <option selected>Not sure yet — help me figure it out</option>
-                <option>Essential</option>
-                <option>Household</option>
-                <option>Estate</option>
-                <option>Core Infrastructure first</option>
+                <option value="" selected>Not sure yet — help me figure it out</option>
+                <option>Included baseline local AI</option>
+                <option>Advanced — roughly $4,000</option>
+                <option>Household — roughly $5,500</option>
+                <option>Estate — roughly $7,500</option>
               </select>
             </label>
             <label for="timeline">When do you want to move?
@@ -112,7 +120,7 @@
               </select>
             </label>
           </div>
-          <p class="muted-note">Not sure which fits? <a href="pricing.html">See the full pricing breakdown</a> — the Private System Assessment will confirm the right tier for your household.</p>
+          <p class="muted-note">These are planning ranges, not a final quote. The hardware uses off-the-shelf components, and current market prices can move materially. Your final quote reflects the parts available when we build your system, plus the flat 5% sourcing and validation fee. <a href="pricing.html">See the full pricing breakdown.</a></p>
           <p class="muted-note">Every deployment starts with a fit call and a Private System Assessment, then hardware sourcing and your system build. Even "as soon as possible" means about a week to your Setup Week — done right, not rushed.</p>
           <label for="message">Anything else we should know?
             <textarea id="message" name="message" required></textarea>
@@ -136,7 +144,7 @@
         <ul class="check-list">
           <li>you value privacy over "free" apps</li>
           <li>you want to own your hardware</li>
-          <li>you want an AI Operator</li>
+          <li>you want private AI sized to your household</li>
           <li>you want a partner to build and run it all</li>
         </ul>
         <div class="accent-line"></div>
